@@ -1,11 +1,13 @@
 
-									UNIVERSIDAD AUTÓNOMA DE BAJA CALIFORNIA
-								  FACULTAD DE CIENCIAS QUÍMICAS E INGENIERÍA
-									  ALGORITMOS Y ESTRUCTURA DE DATOS
-											     PRÁCTICA #11
+					UNIVERSIDAD AUTÓNOMA DE BAJA CALIFORNIA
+				       FACULTAD DE CIENCIAS QUÍMICAS E INGENIERÍA
+				           ALGORITMOS Y ESTRUCTURA DE DATOS
+						     PRÁCTICA #11
 
 Nombre: Rodríguez Munoz José Luis
+
 Práctica: Funciones Hash
+
 Fecha: 13/11/2019
 
 Descripción:
