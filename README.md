@@ -41,6 +41,7 @@ Función Truncamiento
 	el valor resultante es 261
 
 Método multiplicativo
+
 	La dispersión de una clave utilizando el método de la multiplicación genera direcciones en
 	tres pasos.
 		1. Multiplica la clave x por una constante real, R, 0 y 1. Una elección de la constante R es la inversa
