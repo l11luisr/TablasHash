@@ -18,6 +18,7 @@ una cadena de caracteres, se puede transformar considerando el valor ASCII de ca
 fuera un dígito entero. Existen varias funciones Hash, entre ellas:
 
 Función Aritmética modular
+
 	Utiliza la aritmética modular genera valores dispersos calculando el residuo de la división entre la
 	clave x y el tamano de la tabla m.
 	h(x)= x modulo m
@@ -26,6 +27,7 @@ Función Aritmética modular
 	obtienen mejores resultados con números primos grandes.
 
 Función Centro de Cuadrados
+
 	Consiste en elevar al cuadrado la clave y tomar los dígitos centrales como el valor hash y sumarle 1. La
 	cantidad de dígitos que se toman del centro queda determinado por el rango del índice de la tabla, por
 	ejemplo si la tabla tiene tamano 100, el rango estaría entre 0 y 99, por lo tanto solo se necesitaría 2
@@ -33,6 +35,7 @@ Función Centro de Cuadrados
 	tabla es 1000, por lo tanto se tomaran 678 +1, el valor hash sería 679.
 
 Función Truncamiento
+
 	Consiste en seleccionar parte del número, no necesariamente consecutivas. Por ejemplo, si un número
 	de 6 dígitos, se pueden unir el segundo, el cuarto y el sexto para formar el valor hash. Utilizando 129641,
 	el valor resultante es 261
@@ -50,6 +53,7 @@ Método multiplicativo
 				3. h(x) = ParteEntera(m * d)
 
 Desarrollo de la práctica:
+
 Implemente en C o Java 3 de las funciones anteriores, a su elección y realice pruebas con los 3 métodos
 utilizando como entrada el mismo conjunto de 20 claves numéricas de 7 dígitos, una de las claves debe
 ser su matrícula. Las claves deben ser uniformes. Considere el tamano de la tabla Hash (m) igual para
